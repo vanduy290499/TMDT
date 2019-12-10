@@ -1,0 +1,37 @@
+﻿@model PagedList.IPagedList<Model.EF.user>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Listuser";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<title>List User</title>
+<h2>Danh Sách User</h2>
+<table class="table table-striped table-bordered table-hover">
+    <thead>
+        <th>ID</th>
+        <th>UserName</th>
+        <th>PassWord</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Address</th>
+        <th>Update</th>
+        <th>Deleted</th>
+    </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+            <td>@item.id</td>
+            <td>@item.UserName</td>
+            <td>@item.PassWord</td>
+            <td>@item.email</td>
+            <td>@item.phone</td>
+            <td>@item.address</td>
+            <td>@Html.ActionLink("Update", "", new { id = @item.id })</td>
+            <td>@Html.ActionLink("Deleted", "Delete",  new { id = @item.id })</td>
+        </tr>
+       }
+</table>
+@Html.PagedListPager(Model, page => Url.Action("Listuser", new { page }))
+@Html.ActionLink("Trở về trang chủ", "Index", "Home")</br>
+@Html.ActionLink("Trở về trang đăng nhập", "Index", "Login")</br>
+@Html.ActionLink("Thêm User","Insert","User")

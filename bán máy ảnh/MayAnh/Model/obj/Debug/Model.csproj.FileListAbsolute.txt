@@ -1,0 +1,14 @@
+D:\bán máy ảnh\MayAnh\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\bán máy ảnh\MayAnh\Model\bin\Debug\Model.dll.config
+D:\bán máy ảnh\MayAnh\Model\bin\Debug\Model.dll
+D:\bán máy ảnh\MayAnh\Model\bin\Debug\Model.pdb
+D:\bán máy ảnh\MayAnh\Model\bin\Debug\EntityFramework.dll
+D:\bán máy ảnh\MayAnh\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\bán máy ảnh\MayAnh\Model\bin\Debug\EntityFramework.xml
+D:\bán máy ảnh\MayAnh\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\bán máy ảnh\MayAnh\Model\obj\Debug\Model.dll
+D:\bán máy ảnh\MayAnh\Model\obj\Debug\Model.pdb
+D:\bán máy ảnh\MayAnh\Model\bin\Debug\PagedList.dll
+D:\bán máy ảnh\MayAnh\Model\bin\Debug\PagedList.Mvc.dll
+D:\bán máy ảnh\MayAnh\Model\bin\Debug\PagedList.xml
+D:\bán máy ảnh\MayAnh\Model\bin\Debug\PagedList.Mvc.xml
